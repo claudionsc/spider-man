@@ -165,3 +165,74 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) { /* no body, na classe s-
 .s-card--hovered .s-card__title {
   bottom: 50%;
 }
+
+.paragraf{
+
+  display: none;
+}
+
+@media (max-width: 480px){
+  
+  .s-menu{
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  .s-menu ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+
+  }
+
+  .s-menu__item{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    align-content: center;
+  
+  }
+
+  .s-menu__icon{
+    width: 2rem;
+    justify-self: center;
+  }
+
+  .s-card{
+  
+    height: 50vh; 
+  }
+
+  .s-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin: 50px 0;
+  }
+  .s-card__title {
+    font-size: 1.5rem;
+  
+  }
+
+  .paragraf{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  
+}
